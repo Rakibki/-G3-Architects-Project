@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+
+h1 {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+/* hanner styled */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 110px;
+    background-color: #fff4e6;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 16px;
+    color: #323230;
+}
+
+.nav-logo {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.banner-container {
+    background-color: #fff4e6;
+    padding-bottom: 50px;
+
+}
+
+.banner-contant {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 30px;
+
+}
+
+.banner-contant h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.banner-contant p {
+    text-align: center;
+    font-size: 13px;
+}
+
+.primary-btn {
+    padding: 12px 20px;
+    background-color: #ff900e;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    margin: 30px 0 50px 340px;
+}
+
+.banner-container .banner-img {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.banner-container .banner-img img {
+    width: 100%;
+}
+
+
+/* main style */
+main {
+    width: 85%;
+    margin: 70px auto;
+}
+
+
+.teams-container {
+    display: flex;
+    align-items: center;
+}
+
+.teem-img img {
+    width: 280px;
+}
+
+.teem-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.teams-details{
+    padding: 0 40px;
+}
+
+.teams-details h1 {
+    font-size: 38px;
+}
+.Quick {
+    color: #727272;
+}
+
+.our{
+    color: #161616;
+}
+
+.Features{
+    color: #ff900e;
+}
+
+.teams-details p {
+    color: #323230;
+}
+
+
+.teams-details button {
+    padding: 12px 20px;
+    background-color: #ff900e;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+}
+
+.features-container{
+    display: flex;
+    margin-top: 100px;
+}
+
+.features-detais{
+    width: 50%;
+    padding: 14px;
+}
+
+i {
+    color: #ff900e;
+}
+
+.features-detais h1 {
+    font-size: 40px;
+    border-left: 5px solid #ff900e;
+    padding-left: 20px;
+}
+
+.features-detais h3 {
+    margin: 0%;
+}
+
+.features-detais p {
+    color: #727272;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+
+
+.features-img img {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 30px;
+
+}
+
+.features .card {
+    padding: 13px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+} 
+
+.features-img{
+    width: 50%;
+    height: auto;
+}
+
+.ten-years{
+    background-color: #ff900e;
+    border-radius: 5px;
+    padding: 5px;
+    width: 200px;
+    position: relative;
+    top: -80px;
+}
+
+.ten-years h1 {
+    color: #fff;
+    font-weight: 800;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 0%;
+}
+
+.ten-years p {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.facts > h1 {
+    color: #161616;
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+.facts p {
+    color: #727272;
+}
+
+.facts-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.facts-container .card {
+    border: 2px solid #ff900e;
+    padding: 30px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+.facts-container .card h1 {
+    font-size: 2.5rem;
+}
+
+.projects > h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #161616;
+    font-weight: 500;
+    margin-top: 70px;
+}
+
+.projects > p {
+    color: #727272;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.project-card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    overflow: hidden;
+}
+
+.project-card-container img {
+    width: 100%;
+}
+
+.project-card {
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.project-details-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+footer {
+    background-color: #fff4e7;
+    padding: 30px;
+}
+
+footer p {
+    text-align: center;
+    color: #726f6c;
+}
+
+.Sponsors-section p {
+    text-align: center;
+    color: #726f6c;
+    margin-bottom: 50px;
+}
+
+.Sponsors-section h1 {
+    text-align: center;
+    margin-top: 80px;
+    font-size: 40px;
+
+    font-weight: 500;
+}
+
+.sponsors-container{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+
+/* Responvise Desing */
+
+/* Mobail Divices */
+@media screen and (max-width: 576px) {
+    .project-card-container {
+        flex-direction: column;
+    }
+    main {
+        width: 100%;
+    }
+    nav {
+        flex-direction: column;
+        padding: 30px;
+    }
+    nav a {
+        font-size: 13px;
+    }
+    .banner-contant {
+        padding: 30px;
+        width: 100%;
+    }
+    .primary-btn {
+       margin-left: 140px;
+       margin-top: 10px;
+    }
+    .teams-container{
+        flex-direction: column;
+    }
+    .teem-img {
+        grid-template-columns: 1fr;
+    }
+    .teem-img img{
+        width: 330px;
+    }
+    .teams-details {
+        padding: 50px;
+    }
+    .features-container{
+        flex-direction: column;
+    }
+
+    .features-detais {
+        width: 100%;
+        padding: 20px;
+    }
+    .features-img {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .features-img img {
+        margin-right: 40px;
+    }
+
+    .facts > h1 {
+       text-align: center;
+    }
+    .facts p {
+        text-align: center;
+    }
+    .facts-container {
+        width: 80%;
+        margin: 0 auto;
+        flex-direction: column;
+    } 
+}
+
+
+/* Tablet divices */
+@media screen and (min-width: 578px) and (max-width:960px) {
+    .features-container{
+        flex-direction: column;
+    }
+    .features-detais {
+        width: 100%;
+        padding: 20px;
+    }
+    .features-img {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .facts-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .facts-container .card {
+        margin-right: 20px;
+    }
+    .primary-btn {
+        margin-left: 210px;
+    }
+    nav {
+        padding: 30px;
+    }
+    .teams-container {
+        flex-direction: column;
+    }
+    .teams-details {
+        margin-top: 50px;
+    }
+}
