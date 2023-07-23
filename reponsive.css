@@ -1,0 +1,133 @@
+@media screen and (max-width: 567px) {
+
+    nav {
+        flex-direction: column;
+        padding: 30px 6px;
+    }
+    nav ul {
+        gap: .8rem;
+        padding-left: 0;
+    }
+
+    .banner-contant {
+        width: 100%;
+    }
+    .banner-contant h1 {
+        font-size: 2.2rem;
+        font-weight: 700;
+    } 
+
+    .teams-container {
+        flex-direction: column;
+    }
+
+    .teem-img {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .teams-details {
+        margin-top: 30px;
+    }
+
+    .features-container {
+        flex-direction: column;
+    }
+
+    .features-detais{
+        width: 100%;
+        padding: 14px;
+    }
+
+    .features-img {
+        margin: 0 auto;
+    }
+
+    .features-img img {
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .facts-container {
+        flex-direction: column;
+    }
+
+    .project-card-container {
+        flex-direction: column;
+    }
+
+    .sponsors-container {
+        flex-direction: column;
+    }
+    .sponsors-container .sponsors {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media screen and (min-width: 568px) and (max-width: 992px) {
+    nav {
+        padding: 30px 16px;
+    }
+    nav ul {
+        gap: .8rem;
+        padding-left: 0;
+    }
+
+    .teams-container {
+        flex-direction: column;
+    }
+
+    .features-container {
+        flex-direction: column;
+    }
+
+    .teams-details {
+        margin-top: 30px;
+    }
+
+    .card-items {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .features-detais {
+        width: 100%;
+    }
+
+    .features-img {
+        margin: 0 auto;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .features-img img {
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .facts-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .project-card-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .sponsors-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0;
+    }
+
+    .sponsors-container .sponsors {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+     
+}
